@@ -3,7 +3,7 @@ function tryRemoveFromArray(x) {
     x = +prompt(x);
     for (let i = 0 ; i < arr.length ; i++){
         if (x === arr[i]){
-            arr.splice(arr[i],1);
+            arr.splice(i,1);
         }
     }
 }
